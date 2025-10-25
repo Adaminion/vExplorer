@@ -1,0 +1,46 @@
+name: vexplorer
+description: A video file explorer for desktop platforms that displays detailed video metadata.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # File system and path operations
+  path: ^1.8.3
+  file_picker: ^6.1.1
+  
+  # Video metadata extraction
+  video_player: ^2.8.1
+  ffmpeg_kit_flutter: ^6.0.3
+  
+  # State management
+  provider: ^6.1.1
+  
+  # UI
+  flutter_treeview: ^1.0.7
+  
+  # Desktop integration
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+# Desktop platforms
+platforms:
+  linux:
+  macos:
+  windows:
