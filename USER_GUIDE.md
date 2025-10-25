@@ -9,9 +9,9 @@ vExplorer is a desktop application designed specifically for video file enthusia
 ### First Launch
 
 1. **Start the application**
-   - macOS: Double-click `vexplorer.app`
-   - Windows: Double-click `vexplorer.exe`
-   - Linux: Run `./vexplorer` from terminal
+   - macOS: Double-click `vExplorer.app`
+   - Windows: Double-click `vExplorer.exe`
+   - Linux: Run `./vExplorer` from terminal
 
 2. **Grant permissions** (if prompted)
    - The app needs access to read files from your file system
@@ -211,7 +211,9 @@ If you've added or removed video files while vExplorer is open:
 
 If you see "Error extracting metadata":
 
-1. Verify FFmpeg is installed (`ffmpeg -version` in terminal)
+1. Verify FFmpeg is installed
+   - macOS/Linux: Run `ffmpeg -version` in Terminal
+   - Windows: Run `ffmpeg -version` in Command Prompt or PowerShell
 2. Try opening the video in a media player to verify it works
 3. Check the troubleshooting guide (TROUBLESHOOTING.md)
 
@@ -279,7 +281,7 @@ If you need assistance:
 
 1. Check the **TROUBLESHOOTING.md** guide
 2. Review the **DEVELOPMENT.md** for technical details
-3. Open an issue on GitHub: https://github.com/Adaminion/vExplorer/issues
+3. Visit the GitHub repository and open an issue if needed
 
 ## Credits
 
